@@ -12,7 +12,7 @@ namespace ThemeManager.Manager
 		{
 			if (themeDirectoryPath == null)
 			{
-				throw new MissingMemberException("Theme directory needs to be provided.");
+				throw new MissingMemberException("Theme directory needs to be provided!");
 			}
 
 			return Directory.GetFiles(themeDirectoryPath);
